@@ -224,6 +224,7 @@ nav ul {
 
 /* <!-- knowledge section --> */
 .knowledge-section {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -254,13 +255,63 @@ nav ul {
     font-weight: 400;
     margin-top: 16px;
 }
-.knowledge-option{
+
+.knowledge-option {
     margin-top: 40px;
 }
+
 .knowledge-option p {
     color: #001931;
     font-size: 16px;
     font-weight: 500px;
     margin-top: 16px;
 
+}
+
+/* ready section */
+.ready-section {
+   width: 85%;
+   background-color: #F7F6F2;
+   margin: 0 auto;
+  
+}
+
+.ready-container {
+    margin: 80px auto;
+}
+
+.ready-titel {
+    color: #001931;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.ready-description {
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.ready-btn{
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px;
+    border: none;
+    border-radius: 6px;
+    color: aliceblue;
+    background: #30B868;
+    cursor: pointer;
+    margin: 16px auto;
+
+}
+
+.ready-footer {
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
 }
