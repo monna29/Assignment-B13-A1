@@ -149,7 +149,7 @@ nav ul {
 
 /* card section style */
 
-.card-section{
+.card-section {
     margin-top: 100px;
 }
 
@@ -166,13 +166,15 @@ nav ul {
     color: #627382;
     text-align: center;
 }
-.card-container{
+
+.card-container {
     display: flex;
     gap: 24px;
     align-items: center;
     justify-content: center;
     margin-top: 44px;
 }
+
 .card {
     display: flex;
     flex-direction: column;
@@ -180,9 +182,10 @@ nav ul {
     justify-content: center;
     padding: 70px 24px;
     border-radius: 10px;
-    box-shadow:  2px 5px 10px 0px #627382;
+    box-shadow: 2px 5px 10px 0px #627382;
 
 }
+
 .card4 {
     display: flex;
     flex-direction: column;
@@ -191,7 +194,7 @@ nav ul {
     padding: 55px 24px;
     border-radius: 10px;
     text-align: center;
-    box-shadow:  2px 5px 10px 0px #627382;
+    box-shadow: 2px 5px 10px 0px #627382;
 
 }
 
@@ -217,4 +220,47 @@ nav ul {
     font-weight: 400;
     margin-top: 16px;
     text-align: center;
+}
+
+/* <!-- knowledge section --> */
+.knowledge-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 102px 0;
+    gap: 60px;
+}
+
+.knowledge-container {
+    padding: 102px 0;
+}
+
+.knowledge-title {
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.knowledge-heading {
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.knowledge-description {
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.knowledge-option{
+    margin-top: 40px;
+}
+.knowledge-option p {
+    color: #001931;
+    font-size: 16px;
+    font-weight: 500px;
+    margin-top: 16px;
+
 }
